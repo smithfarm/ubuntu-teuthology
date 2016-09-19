@@ -12,4 +12,4 @@ docker build -t teuthology --no-cache .
 
 Optionally enter the Docker container:
 
-docker image -it teuthology /bin/bash
+docker run -it teuthology /bin/bash
